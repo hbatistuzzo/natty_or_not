@@ -8,7 +8,7 @@
 Final challenge of the DIO Python Backend bootcamp. The objective is to showcase the myriad AI functionalities by using whicever AI tools currently available to produce an end-product.
 The sky seems to be the limit here, so I will begin this project by feeding this exact information to an AI platform, namely Blackbox AI. This is the initial prompt:
 
-'''
+```
 Hello Blackbox. I am tasked with solving a challenge for a data science bootcamp. In this challenge, one must use whatever free AI tools currently available to develop an "end product". For example: provide a prompt about a subject so that an AI tool can expand on that subject in the form of a script for a podcast. Then, with that script, use an AI tool to generate an AI-voiceover of the script, emulating a real podcaster talking about said subject. This is just an example. In my case, I would like to use the following components:
 
 - an AI tool for synthetic data generation such as gretel, mdclone or hazy. I want to generate a timeseries of sea surface temperature measurements on a point in the ocean, emulating data that could come from a meteoceanographic buoy with sensors installed. In particular, I would like a dataset of 1 year of daily SST measuments at a fictional point near the sea of Rio de Janeiro, Brazil.
@@ -17,11 +17,11 @@ Hello Blackbox. I am tasked with solving a challenge for a data science bootcamp
 - finally, an AI tool for text-to-speech functionality that will create a voice-over of the synthesis created by the previous AI tool.
 
 Do you think this is feasible? And, if so, can you help me achieve it?
-'''
+```
 
-Turns out that the Blackbox AI _could_ indeed help me achieve this:
+### Turns out that the Blackbox AI _could_ indeed help me achieve this:
 
-'''
+```
 What an exciting project! I'm happy to help you explore the feasibility of this challenge and provide guidance on how to achieve it using various AI tools.
 
 Feasibility: After reviewing your requirements, I believe it's entirely feasible to complete this project using the mentioned AI tools. Each component you've outlined can be achieved using the corresponding AI tools, and the workflow seems well-structured.
@@ -53,8 +53,14 @@ Use Replit to generate the C++ code that ingests the synthetic data and performs
 Upload both datasets (original and filtered) to Fathom and generate a summary.
 Use a text-to-speech AI tool to create a voice-over of the summary.
 If you need help with any of these steps or require more guidance on using these AI tools, feel free to ask, and I'll do my best to assist you.
-'''
+```
 
 Might as well follow his suggestions. We hence begin...
 
 #.. STEP 1 - Create a synthetic dataset of SST with Gretel
+
+Gretel can create synthetic datasets from original ones. In this case, I've used the public data from a buoy maintained by the brazilian CHM-PNBOIA program: this datasets encompasses data measured by anemometers, ondographs, ADCPs and other meteoceanographic sensors. Although the initial idea was only to generate tabular SST data, Gretel seems powerful enough to be able to replicate a complete dataset.
+
+<div align="center">
+<img src="gretel1.png" alt="Gretel 1" width="600">
+</div>
