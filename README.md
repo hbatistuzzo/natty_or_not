@@ -11,7 +11,7 @@ The implications are somewhat disturbing, to say the least.
 
 
 <div align="center">
-<img src="resources/anyway.png" alt="Gretel 1" width="800">
+<img src="resources/anyway.jpg" alt="anyway" width="800">
 </div>
 
 # Anyway, _let's just hump into it:_
@@ -132,13 +132,13 @@ Wow, thank you Blackbox. Already the scorpe of what I've accomplished in under 1
 Gretel is highly customizable. I've trained a couple of new models, tweaking here and there, and managed to create a synthetic dataset of excelent quality. This is not my subjective opinion, it's from the quality report, which ultimately means that Gretel managed to create a dataset that not only has the same shape and size of the original, but that also preserves the same overarching structure _and_ insights:
 
 <div align="center">
-<img src="resources/gretel2.png" alt="Gretel 1" width="800">
+<img src="resources/gretel2.png" alt="Gretel 2" width="800">
 </div>
 
 Correlation analysis and Principal Component Analysis shows that the model created and the resulting datasets it produces emulate the qualities of the original data:
 
 <div align="center">
-<img src="resources/gretel3.png" alt="Gretel 1" width="800">
+<img src="resources/gretel3.png" alt="Gretel 3" width="800">
 </div>
 
 
