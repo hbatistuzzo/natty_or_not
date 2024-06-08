@@ -14,7 +14,7 @@ The implications are somewhat disturbing, to say the least.
 <img src="resources/anyway.jpg" alt="anyway" width="800">
 </div>
 
-# Anyway, _let's just hump into it:_
+# Anyway, _let's just jump into it:_
 
 I began this project by feeding this exact information to an AI platform, namely Blackbox AI. This is the initial prompt:
 
