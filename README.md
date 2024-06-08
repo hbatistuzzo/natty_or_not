@@ -144,4 +144,8 @@ Correlation analysis and Principal Component Analysis shows that the model creat
 
 # .. STEP 2 - the sky is the limit
 
-At this point, we've already accomplished quite a bit. I will keep expanding the following sections as I learn more about other AI tools such as replit, fathom and amazon polly such as suggested by Blackbox. 
+I will keep expanding the following sections as I learn more about other AI tools such as replit, fathom and amazon polly such as suggested by Blackbox. For now, we've essentially created a new dataset which emulates with accuracy the data from a real meteoceanographic moored buoy deployed in the Atlantic Ocean. It encompasses years of georeferenced data from a number of different sensors: ondographs, ADCPs, digital and analog anemometers, pyranometers and weather stations. Please feel free to investigate the original dataset, aptly named 'real_data_or_is_it.csv', as well as the synthetic data, aptly named 'synthetic_data_or_is_it.csv'. Natty or not?
+
+<div align="center">
+<img src="resources/you_decide.jpg" alt="heheh" width="800">
+</div>
