@@ -127,7 +127,7 @@ Training epoch completed... Gretel is reporting the training loss for each epoch
 That's a lot of information, but it should give you an idea of what's happening behind the scenes in Gretel. If you have any specific questions or concerns, feel free to ask!
 ```
 
-Wow, thank you Blackbox. Already the scorpe of what I've accomplished in under 10 minutes using AI tools is starting to settle. And it's somewhat _unsettling_ har har har har!
+Wow, thank you Blackbox. Already the scope of what I've accomplished in under 10 minutes using AI tools is starting to settle. And it's somewhat _unsettling_ har har har har!
 
 Gretel is highly customizable. I've trained a couple of new models, tweaking here and there, and managed to create a synthetic dataset of excelent quality. This is not my subjective opinion, it's from the quality report, which ultimately means that Gretel managed to create a dataset that not only has the same shape and size of the original, but that also preserves the same overarching structure _and_ insights:
 
